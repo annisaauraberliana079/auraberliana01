@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+   background: #B46858; 
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(1){
+    color: #fff;
+
+}
+
+section:nth-child(2){
+    color: #B46858;
+    background: #fff;
+
+}
+
+section:nth-child(3){
+    color: #fff;
+
+}
+
+section:nth-child(4){
+    color: #B46858;
+    background: #fff;
+}
+
+section:nth-child(5){
+    color: #fff;
+
+}
+
+section:nth-child(6){
+    color: #B46858;
+    background: white;
+}
+
+section .container{
+    margin: 100px;
+}
+
+section h1{
+    font-size: 60px;
+}
+
+section h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section .container1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65))url(hotcofee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .content{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .row{
+    width: 100%;
+    padding: 0px 80px;
+}
+
+section .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    position: fixed;
+    z-index: 1;
+    color: aqua;
+}
+
+section .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section .navbar ul li{
+    list-style: none;
+}
+
+section .navbar ul li a{
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+section .navbar ul li a:hover{
+    background-color: rgb(110, 35, 35);
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
